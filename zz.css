@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+nav{
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #E5F4FB;
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+}
+.div-left{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    color:#A4B4BB;
+}
+
+nav img{
+    width: 100px;
+}
+
+.div-right{
+position: relative;
+}
+
+.div-right h3{
+    color:#A4B4BB;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #000000;
+}
+
+
+.section1{
+    display: flex;
+    justify-content:space-around;
+    background-color: #E5F4FB;
+    width: 100%;
+}
+
+section div img{
+    width: 250px;
+}
+
+
+
+.Burgraff {
+    position: fixed;
+    text-align: center;
+position: relative;
+top: 20px;
+}
+.Burgraff2{
+    color:#A4B4BB;
+    font-size: 25px;
+
+}
+
+.Burgraff1{
+    color: #000;
+    font-size:30px;
+}
+
+
+.section2{
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+top: 60px;
+}
+
+.p1{
+    margin: 15px;
+    color: #000000;
+    font-size: 25px;
+}
+.p0{
+
+    color: #A4B4BB;
+    font-size: 20px;
+
+}
+.section5{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+top: 150px;
+}
+
+.KUDZOKA{
+    position: relative;
+}
+
+
+
+.KUDZOKA p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.section6{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 200px;
+}
+
+
+
+.section7{
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+.section7 p{
+    margin: 5px;
+}
+
+
